@@ -30,6 +30,7 @@ div.bg {
 div.rol {
     color: white;
     font-size: 2em;
+    cursor: pointer;
 }
 
 h1 {
@@ -53,11 +54,13 @@ input[type="password"] {
 }
 
 div.sign-in-btn{
+    display: block;
+    margin: auto;
     width: 70px;
     height: 70px;
     border-radius: 50%;
     color: white;
-    background: linear-gradient(to top, #232529, #7f8084);
+    background: linear-gradient(to top, black, #4e4e4e);
     cursor: pointer;
 }
 
@@ -70,7 +73,7 @@ h2.big {
 a {
     cursor: pointer;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 0.8em;
     color: #42484f;
     cursor: pointer;
 }
