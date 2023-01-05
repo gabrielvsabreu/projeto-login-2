@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&family=Poppins:wght@100;200;300;400&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    background: linear-gradient(45deg, rgb(233,232,228), rgb(244,243,236));    
+}
+
+.container {
+    width: 350px;
+    height: 730px;
+    border-radius: 40px;
+    margin-top: 50px;
+    background-color: #fefdf9;
+    overflow: hidden;
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.2);    
+}
+
+div.bg {
+    top: -5px;
+    z-index: 0;
+}
+
+div.rol {
+    color: white;
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+}
+
+input[type="email"] {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background-color: transparent;
+}
+
+input[type="password"] {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background-color: transparent;
+}
+
+div.sign-in-btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(to top, #232529, #7f8084);
+}
+
+h2.big {
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #42484f;
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1em;
+    color: #42484f;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
