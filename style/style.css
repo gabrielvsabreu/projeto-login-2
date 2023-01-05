@@ -56,14 +56,15 @@ div.sign-in-btn{
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    color: white;
     background: linear-gradient(to top, #232529, #7f8084);
+    cursor: pointer;
 }
 
 h2.big {
     font-weight: 600;
     font-size: 1.2em;
     color: #42484f;
-    cursor: pointer;
 }
 
 a {
